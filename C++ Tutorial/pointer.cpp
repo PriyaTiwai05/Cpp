@@ -17,6 +17,17 @@ int main(){
     cout<<"value of a is "<<*(&a)<<endl;
     cout<<"value of b is "<<*(ptr)<<endl;
     //null pointer
+    //pointer arithmatic
+    int c = 2;
+    int *ptr3 = &c;
+    cout<<ptr3<<endl;
+    ptr3++;
+    cout<<ptr3<<endl;
+    ptr3--;
+    cout<<ptr3<<endl;
+    ptr3 = ptr3 +2;
+    cout<<ptr3<<endl;
+
     
 
     return 0;
